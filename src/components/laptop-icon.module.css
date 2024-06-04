@@ -1,0 +1,9 @@
+.laptopIcon {
+  height: 288px;
+  width: 425px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -246px;
+  left: 155px;
+  z-index: 5;
+}

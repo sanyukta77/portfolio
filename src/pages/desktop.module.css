@@ -1,0 +1,414 @@
+.planet82155321Icon {
+  width: 100%;
+  height: 4493px;
+  position: absolute;
+  margin: 0 !important;
+  top: -30px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.aboutMe,
+.home {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  z-index: 1;
+}
+
+.home {
+  width: 91px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.aboutMe {
+  width: 146px;
+  white-space: nowrap;
+}
+.aboutMe,
+.projects,
+.skills {
+  display: inline-block;
+  flex-shrink: 0;
+}
+.skills {
+  text-decoration: none;
+  width: 95px;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  z-index: 1;
+}
+.projects {
+  width: 142px;
+}
+.contact,
+.projects {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  z-index: 1;
+}
+.navigationContainer :hover{
+  cursor: pointer;
+}
+.navigationContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navigation {
+  width: 2000px;
+  justify-content: space-between;
+}
+.navigation a {
+  margin-right: 50px; /* Adjust the value to increase or decrease space */
+}
+
+.navigationContainer {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inter);
+}
+.im,
+.navigationContainer {
+  color: var(--color-white);
+}
+.hiIm {
+  margin: 0;
+  align-self: stretch;
+  height: 80px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.introduction {
+  width: 430px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 var(--padding-36xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sanyukta,
+.yelnare {
+  margin: 0;
+}
+.sanyuktaYelnare {
+  align-self: stretch;
+  height: 240px;
+  position: relative;
+  font-size: 75px;
+  font-weight: 900;
+  font-family: inherit;
+  color: var(--color-white);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+  margin: -31px 0 0;
+}
+.heroContent {
+  width: 635px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.aFrontendDeveloper {
+  align-self: stretch;
+  height: 78px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.viewResume {
+  position: relative;
+}
+.resumeButtonContainer:hover{
+  cursor: pointer;
+}
+.resumeButtonContainer {
+  border-radius: 50px;
+  background-color: var(--color-darkcyan);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xl) var(--padding-36xl);
+  white-space: nowrap;
+  z-index: 1;
+  margin-top: -23px;
+}
+.frame,
+.heroContentParent,
+.mainContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  z-index: 2;
+  margin-top: -55px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.heroContentParent,
+.mainContent {
+  max-width: 100%;
+}
+.heroContentParent {
+  flex: 1;
+  flex-direction: column;
+  z-index: 1;
+}
+.mainContent {
+  width: 872px;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs) 117px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-26xl);
+  color: var(--color-darkcyan);
+  font-family: var(--font-inter);
+}
+.me {
+  color: #feffff;
+}
+.aboutMe1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 1;
+}
+.aboutParagraph {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.besidesDevelopmentYou,
+.blankLine,
+.describingOneselfIs {
+  display: block;
+}
+.describingOneselfIsContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-9xl);
+  font-weight: 500;
+  text-align: right;
+  z-index: 1;
+}
+.aboutContent,
+.aboutContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.aboutContent {
+  width: 781px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.aboutContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 17px 120px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.mentionedInResume {
+  width: 579px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 160%;
+  z-index: 2;
+}
+.projectsPreview,
+.resumeMention {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.resumeMention {
+  align-self: stretch;
+  padding: 0 0 287px 949px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.projectsPreview {
+  width: 829.2px;
+  margin: 0 !important;
+  position: absolute;
+  top: 2192px;
+  left: 595px;
+}
+.contact2 {
+  margin: 0;
+  width: 278px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.contact1,
+.contactContent,
+.desktop2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactContent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.contact1,
+.desktop2 {
+  box-sizing: border-box;
+}
+.contact1 {
+  width: 584px;
+  flex-direction: row;
+  padding: 0 26px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.desktop2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-9xl) 38px 255px 89px;
+  gap: 155px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .resumeMention {
+    padding-left: 474px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .hiIm {
+    font-size: 36px;
+  }
+  .sanyuktaYelnare {
+    font-size: 60px;
+  }
+  .aboutMe1,
+  .contact2 {
+    font-size: var(--font-size-21xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .navigation {
+    display: none;
+  }
+  .aboutContentWrapper,
+  .mainContent {
+    padding-bottom: 76px;
+    box-sizing: border-box;
+  }
+  .aboutContentWrapper {
+    padding-bottom: 78px;
+  }
+  .resumeMention {
+    padding-left: 237px;
+    box-sizing: border-box;
+  }
+  .contactContent {
+    gap: var(--gap-xl);
+  }
+  .desktop2 {
+    gap: 77px;
+    padding-left: 44px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hiIm {
+    font-size: 27px;
+  }
+  .introduction {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .sanyuktaYelnare {
+    font-size: var(--font-size-26xl);
+  }
+  .aFrontendDeveloper {
+    font-size: var(--font-size-xl);
+  }
+  .resumeButtonContainer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .aboutMe1 {
+    font-size: var(--font-size-11xl);
+  }
+  .describingOneselfIsContainer,
+  .mentionedInResume {
+    font-size: var(--font-size-3xl);
+  }
+  .resumeMention {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .contact2 {
+    font-size: var(--font-size-11xl);
+  }
+  .desktop2 {
+    gap: 39px;
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

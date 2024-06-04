@@ -1,0 +1,170 @@
+.projectDescriptionChild,
+.subtractIcon {
+  position: absolute;
+  top: 328px;
+  left: 0;
+  width: 157px;
+  height: 56px;
+  object-fit: contain;
+  z-index: 2;
+}
+.subtractIcon {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 3;
+}
+.lemonBackgroundChild,
+.lemonBackgroundInner,
+.lemonBackgroundItem,
+.rectangleIcon {
+  position: absolute;
+  top: 154px;
+  left: 394px;
+  border-radius: var(--br-xl);
+  width: 271.8px;
+  height: 36.5px;
+  object-fit: cover;
+  z-index: 4;
+}
+.lemonBackgroundInner,
+.lemonBackgroundItem,
+.rectangleIcon {
+  top: 227px;
+  left: 51px;
+  width: 275.2px;
+  height: 125.9px;
+}
+.lemonBackgroundInner,
+.rectangleIcon {
+  top: 25px;
+  left: 414px;
+  width: 226.3px;
+  height: 100px;
+}
+.rectangleIcon {
+  top: 215px;
+  left: 402px;
+  width: 255.5px;
+  height: 116.4px;
+}
+.lemonBackground {
+  position: absolute;
+  top: 0;
+  left: 133px;
+  width: 682.7px;
+  height: 363.8px;
+}
+.projectDescription {
+  height: 384px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.projectDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.responsiveReactLittle {
+  width: 637px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.websiteTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-35xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.liscencePlateDetection {
+  position: absolute;
+  top: 475px;
+  left: 162px;
+  font-weight: 600;
+  display: inline-block;
+  width: 637px;
+  height: 34px;
+  z-index: 1;
+}
+.projectTitleChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 778.7px;
+  height: 518.2px;
+  object-fit: cover;
+  z-index: 2;
+}
+.projectTitle {
+  align-self: stretch;
+  height: 518.2px;
+  position: relative;
+}
+.projectCardContent,
+.projectTitles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.projectTitles {
+  width: 799px;
+  align-items: flex-start;
+  gap: var(--gap-4xs);
+}
+.projectCardContent {
+  width: 844px;
+  align-items: flex-end;
+}
+.projectCard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-136xl-8);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .projectCard {
+    padding-bottom: var(--padding-82xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .websiteTitle {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .projectCard {
+    padding-bottom: var(--padding-47xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .liscencePlateDetection,
+  .responsiveReactLittle {
+    font-size: var(--font-size-3xl);
+  }
+}

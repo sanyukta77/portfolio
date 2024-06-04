@@ -1,0 +1,150 @@
+.gmail1,
+.images1 {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.images1 {
+  width: 106.3px;
+  border-radius: var(--br-3xs);
+  background-image: url(/public/images-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.gmail1 {
+  font-weight: 600;
+}
+.gmail,
+.gmailLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.gmailLabel {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-5xs);
+}
+.gmail {
+  height: 118px;
+  width: 116px;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.githubLogoGitHubIconWith {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-image: url(/public/githublogogithubiconwithtextonwhiteandblackbackgroundfreevector-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.githubIcon {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+}
+.github1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 108px;
+  z-index: 1;
+}
+.github,
+.githubLink {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.githubLink {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.github {
+  height: 127px;
+  width: 122px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-sm) var(--padding-10xs) 0;
+  box-sizing: border-box;
+}
+.images11 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-image: url(/public/images-1-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.linkedinIcon {
+  width: 121px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.linkedin1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.linkedin,
+.linkedinLink {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.linkedinLink {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.linkedin {
+  height: 123px;
+  width: 144px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.contactIcons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .contactIcons {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .github1,
+  .gmail1,
+  .linkedin1 {
+    font-size: var(--font-size-3xl);
+  }
+}
